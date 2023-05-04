@@ -1,0 +1,7 @@
+PROJECT_NAME           = "Documentazione AddressGenerator"
+INPUT                  = ./Program.cs
+OUTPUT_DIRECTORY      = ./docs
+GENERATE_HTML          = YES
+GENERATE_PDF           = YES
+PDF_HYPERLINKS         = YES
+USE_PDFLATEX           = YES

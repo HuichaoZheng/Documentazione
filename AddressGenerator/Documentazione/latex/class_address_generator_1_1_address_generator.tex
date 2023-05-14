@@ -1,0 +1,97 @@
+\doxysection{Address\+Generator.\+Address\+Generator Class Reference}
+\label{class_address_generator_1_1_address_generator}\index{AddressGenerator.AddressGenerator@{AddressGenerator.AddressGenerator}}
+
+
+Classe che genera un indirizzo IP v4 valido a partire da 32 bit.  
+
+
+Inheritance diagram for Address\+Generator.\+Address\+Generator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_address_generator_1_1_address_generator}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Address\+Generator} (int bit32)
+\begin{DoxyCompactList}\small\item\em Costruttore della classe \doxyref{Address\+Generator}{p.}{namespace_address_generator}. \end{DoxyCompactList}\item 
+string \textbf{ generate\+IPv4} ()
+\begin{DoxyCompactList}\small\item\em Genera un indirizzo IP v4 valido a partire dai 32 bit configurati. \end{DoxyCompactList}\item 
+string \textbf{ generate\+Subnet} ()
+\begin{DoxyCompactList}\small\item\em Genera una subnet mask valida. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+string \textbf{ generate\+IPv4} ()
+\begin{DoxyCompactList}\small\item\em Genera un indirizzo IP v4 valido. \end{DoxyCompactList}\item 
+string \textbf{ generate\+Subnet} ()
+\begin{DoxyCompactList}\small\item\em Genera una subnet mask valida. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{class_address_generator_1_1_address_generator_a279e70340929d762bfd46842f1e45c84}} 
+int {\bfseries \+\_\+bit32}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe che genera un indirizzo IP v4 valido a partire da 32 bit. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\label{class_address_generator_1_1_address_generator_a131da5012a84219ba5988f04364bfa22}} 
+\index{AddressGenerator.AddressGenerator@{AddressGenerator.AddressGenerator}!AddressGenerator@{AddressGenerator}}
+\index{AddressGenerator@{AddressGenerator}!AddressGenerator.AddressGenerator@{AddressGenerator.AddressGenerator}}
+\doxysubsubsection{AddressGenerator()}
+{\footnotesize\ttfamily Address\+Generator.\+Address\+Generator.\+Address\+Generator (\begin{DoxyParamCaption}\item[{int}]{bit32 }\end{DoxyParamCaption})}
+
+
+
+Costruttore della classe \doxyref{Address\+Generator}{p.}{namespace_address_generator}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em bit32} & 32 bit da utilizzare per la generazione dell\textquotesingle{}indirizzo IP.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\label{class_address_generator_1_1_address_generator_ae6ff3d62ca791aaa04f428cca36d65d4}} 
+\index{AddressGenerator.AddressGenerator@{AddressGenerator.AddressGenerator}!generateIPv4@{generateIPv4}}
+\index{generateIPv4@{generateIPv4}!AddressGenerator.AddressGenerator@{AddressGenerator.AddressGenerator}}
+\doxysubsubsection{generateIPv4()}
+{\footnotesize\ttfamily string Address\+Generator.\+Address\+Generator.\+generate\+IPv4 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Genera un indirizzo IP v4 valido a partire dai 32 bit configurati. 
+
+\begin{DoxyReturn}{Returns}
+Indirizzo IP v4 generato.
+\end{DoxyReturn}
+
+
+Implements \textbf{ Address\+Generator.\+IAddress} \doxyref{}{p.}{interface_address_generator_1_1_i_address_a869dcd31ae11de62ae2e0ad7242efae5}.
+
+\mbox{\label{class_address_generator_1_1_address_generator_a5063140aa2274ed02a7390e8289ef7ec}} 
+\index{AddressGenerator.AddressGenerator@{AddressGenerator.AddressGenerator}!generateSubnet@{generateSubnet}}
+\index{generateSubnet@{generateSubnet}!AddressGenerator.AddressGenerator@{AddressGenerator.AddressGenerator}}
+\doxysubsubsection{generateSubnet()}
+{\footnotesize\ttfamily string Address\+Generator.\+Address\+Generator.\+generate\+Subnet (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Genera una subnet mask valida. 
+
+\begin{DoxyReturn}{Returns}
+Subnet mask generata.
+\end{DoxyReturn}
+
+
+Implements \textbf{ Address\+Generator.\+IAddress} \doxyref{}{p.}{interface_address_generator_1_1_i_address_a673767352f8e9e091d39564c406f4426}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Acer users/\+Desktop/\+Address\+Generator/\+Console\+App1/\+Console\+App1/Program.\+cs\end{DoxyCompactItemize}
